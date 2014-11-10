@@ -1,0 +1,6 @@
+Task 0
+Arrival=5916
+Missed=2287
+Task 1
+Arrival=10091
+Missed=2674

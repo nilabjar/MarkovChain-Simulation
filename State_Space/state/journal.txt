@@ -1,0 +1,58 @@
+
+Deadline missed is related to the edge that represents the transition. Its probabilty is calculated by the originating state and the rate. 
+
+Thus deadline missed info is best associated with the edge. It can be calculated by parsing through the states and parsing the outgoing arcs.
+
+change 
+
+8-9
+11-12
+13-15
+
+
+16 gen = 19man
+17-18
+
+19gen=21man
+
+21gen=23man
+
+23gen=24man
+
+24gen=16man
+
+
+
+*** Generating column vectors ... We need to just simply traverse the out_edges of each state ... sum them to get the positive coefficient out , and then use the individuals to get the negative coefficient.
+
+
+mapping states between EDF man and gen
+
+8-9
+11-12
+
+13gen=16man
+
+14gen=15man
+
+15gen=14man
+
+16gen=18man
+
+18 = 21
+
+19-20
+
+21=22
+
+22=24
+24=25
+
+
+****COMPUTATIONAL DISCREPENCY ************
+
+**** What i see is a lot of computational discrepency   ... The same set of equations solved thru matlab gives different answers when run differently....
+
+
+
+
